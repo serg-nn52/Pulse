@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'MuseoModerno';
+    src: local('MuseoModerno Regular'), local('MuseoModerno-Regular'),
+        url('MuseoModerno-Regular.woff2') format('woff2'),
+        url('MuseoModerno-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: local('MuseoModerno Bold'), local('MuseoModerno-Bold'),
+        url('../fonts/MuseoModerno-Bold.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: local('MuseoModerno Medium'), local('MuseoModerno-Medium'),
+        url('../fonts/MuseoModerno-Medium.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'MuseoModerno';
+    src: local('MuseoModerno Light'), local('MuseoModerno-Light'),
+        url('../fonts/MuseoModerno-Light.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), local('Roboto-Regular'),
+        url('../fonts/MuseoModerno-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
