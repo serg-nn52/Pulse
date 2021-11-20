@@ -22,6 +22,46 @@
         width: 230px;
         }
     }
+    .carousel__inner {
+        display: block;
+        width: 90%; 
+        .slick-track {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            box-shadow: none;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        li {
+            // background-color: $main-color;
+            list-style-type: none;
+            // margin: 0 10px;
+            button {
+                border: none;
+                width: 20px;
+                height: 20px;
+                border-radius: 100%;
+                background-color: $main-color;
+                font-size: 0;
+                line-height: 0;
+                margin: 0 10px;
+                outline: none;
+                // box-sizing: content-box;
+            }
+        }
+        .slick-active {
+            button {
+                background-color: black;
+            }
+        }
+    }
 }
 @media (max-width: 670px) {
     .promo__wrapper {
@@ -51,7 +91,19 @@
     .advantages__cards {
         margin-top: 40px;
 }
+    .title {
+        text-align: center;
+        font-size: 30px;
+    }
+    .feed-form {
+        margin: 0 auto;
+        margin-top: 36px;
+    }
+    .consultation__description {
+        text-align: center;
+    }
 }
+    
 @media (max-width: 575px) {
     // .promo {
     //     min-height: 0;
@@ -95,6 +147,15 @@
             width: 95%;
         }
     }
+    .consultation {
+        padding: 75px 0;
+        min-height: auto;
+    }
+    .title {
+        font-size: 25px;
+        line-height: 40px;
+        
+    }
 }
 @media (max-width: 355px) {
     .header {
@@ -136,5 +197,14 @@
         &__title {
             font-style: 25px;
         }
-}       
+}   
+    .consultation {
+        padding: 60px 0;
+    }
+    .title {
+        line-height: 35px;
+    }
+    .feed-form {
+        width: 85%;
+    }       
 }

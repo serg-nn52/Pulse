@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'MuseoModerno';
     src: local('MuseoModerno Regular'), local('MuseoModerno-Regular'),
-        url('MuseoModerno-Regular.woff2') format('woff2'),
-        url('MuseoModerno-Regular.woff') format('woff');
+        url('../fonts/MuseoModerno-Regular.woff2') format('woff2'),
+        url('../fonts/MuseoModerno-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -43,7 +43,7 @@
 @font-face {
     font-family: 'Roboto';
     src: local('Roboto'), local('Roboto-Regular'),
-        url('../fonts/MuseoModerno-Regular.woff2') format('woff2'),
+        url('../fonts/Roboto-Regular.woff2') format('woff2'),
         url('../fonts/Roboto-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
