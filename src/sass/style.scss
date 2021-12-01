@@ -1,0 +1,28 @@
+@import './libs/bootstrap-reboot.min';
+@import './libs/fonts';
+@import './libs/slick';
+
+@import './base/variables';
+body,
+* {
+    font-family: MuseoModerno, Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+.container {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+@import './blocks/promo';
+@import './blocks/header';
+@import './blocks/buttons';
+@import './blocks/_advantages';
+@import './blocks/consultation';
+@import './blocks/forms';
+@import './blocks/carousel';
+@import './blocks/catalog';
+
+
+
+@import './blocks/media';
